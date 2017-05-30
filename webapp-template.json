@@ -1,5 +1,5 @@
 {
-	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json",
+	"$schema": "http://schema.management.azure.com/schemas/2017-01-01/deploymentTemplate.json",
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"webappName": {
@@ -68,7 +68,7 @@
 	"outputs": {
 		"webapp": {
 			"type": "object",
-			"value": "[reference(parameters('webappName'))]"
+			"value": "[reference(parameters('webappName1'))]"
 		}
 	}
 }
